@@ -7,7 +7,7 @@ import deved from './Images/dev-ed-wave.png';
 import contact from './Images/contact-me.gif'
 import design from './Images/design.png';
 import code from './Images/code.png';
-import consulting from './Images/consulting.png';
+import consulting from './Images/design1.png';
 import project1 from './Images/landingpage.png';
 import project2 from './Images/Todo.png';
 import project3 from './Images/IncomeTracker.png';
