@@ -49,7 +49,7 @@ function App() {
             <a href='https://www.linkedin.com/in/jagan-g-mohan-6b82701a2/'><AiFillLinkedin  className=' cursor-pointer dark:text-gray-300'/></a>
             <a href='https://www.instagram.com/jagz_5246/'><AiFillInstagram className=' cursor-pointer dark:text-gray-300'/></a>
           </div>
-          <div className=' relative mx-auto my-10 bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 py-10 overflow-hidden md:w-96 md:h-96'>
+          <div className=' relative mx-auto my-10 bg-gradient-to-b from-teal-500 rounded-full w-70 h-70 py-10 overflow-hidden md:w-96 md:h-96'>
             <img src={deved} alt='avatar.png'/>
           </div>
           </div> 
@@ -108,8 +108,8 @@ function App() {
             </p>
             <div className='lg:flex gap-10'>
             <div className=' text-center shadow-md p-10 rounded-xl cursor-pointer  my-10  transition duration-500 hover:bg-gray-300 mb- dark:bg-gray-100 dark:hover:bg-gray-300'>
-              <img src={project1} alt="design.png" width={600} height={700} className='rounded-lg pb-10 mx-auto'/>
-              <h3 className='text-lg pb-2 pt-8 font-medium'>Landing page</h3>
+              <img src={project1} alt="design.png" width={600} height={700} className='rounded-lg mx-auto mb-2'/>
+              <h3 className='text-lg pb-2 font-medium'>Landing page</h3>
               <p className='py-2 '>
                 A simple landing page for a healthcare provider
               </p>
@@ -117,35 +117,35 @@ function App() {
               <p className='py-1'>HTML5, CSS3</p>
               <p className='py-1'>Bootstrap 5</p>
               <div className=' mt-10'>
-              <a href='https://jagz5246.github.io/Medpal.github.io/' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white  px-4 py-2 mr-5 rounded-md transition duration-500 hover:text-black sm:px-2 text-sm'>Live demo</a>
-              <a href='https://github.com/jagz5246/Medpal.github.io' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white  px-4 py-2 rounded-md transition duration-500 hover:text-black sm:px-2 text-sm'>Source code</a>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-500 hover:text-black '><a href='https://jagz5246.github.io/Medpal.github.io/'>Live demo</a></button>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-500 hover:text-black'><a href='https://github.com/jagz5246/Medpal.github.io'>Source code</a></button>
               </div>
             </div>
             <div className=' text-center shadow-md p-10  rounded-xl cursor-pointer my-10 transition duration-500 hover:bg-gray-300 dark:bg-gray-100 dark:hover:bg-gray-300'>
-              <img src={project2} alt="design.png" width={600} height={700} className='rounded-lg mx-auto'/>
-              <h3 className='text-lg pb-2 pt-8 font-medium'>To Do App</h3>
+              <img src={project2} alt="design.png" width={600} height={700} className='rounded-lg  mx-auto mb-2'/>
+              <h3 className='text-lg pb-2 font-medium'>To Do App</h3>
               <p className='py-2 '>
                 A todo application that can perform basic CRUD operations</p>
               <h4 className=' py-4 text-teal-600'>Tech involved</h4>
               <p className='  py-1'>React</p>
               <p className=' py-1'>React hooks</p>
-              <div className=' mt-10 lg:mt-12'>
-              <a href='https://jagz5246.github.io/todo-app/' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 mr-5 rounded-md transition duration-500 hover:text-black sm:px-2 text-sm'>Live demo</a>
-              <a href='https://github.com/jagz5246/todo-app' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-500 hover:text-black sm:px-2 text-sm'>Source code</a>
+              <div className=' mt-10'>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-500 hover:text-black '><a href='https://jagz5246.github.io/todo-app/'>Live demo</a></button>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-500 hover:text-black'><a href='https://github.com/jagz5246/todo-app'>Source code</a></button>
               </div>
             </div>
             <div className=' text-center shadow-md p-10 rounded-xl my-10 cursor-pointer transition duration-500 hover:bg-gray-300 dark:bg-gray-100 dark:hover:bg-gray-300'>
-              <img src={project3} alt="design.png" width={600} height={1000} className='rounded-lg mx-auto'/>
-              <h3 className='text-lg mt-20 pb-2 pt-8 font-medium'>Income tracker</h3>
+              <img src={project3} alt="design.png" width={600} height={700} className='rounded-lg mx-auto mb-2'/>
+              <h3 className='text-lg pb-2 font-medium'>Income tracker</h3>
               <p className='py-2 '>
                 An expense tracker application to help you keep track of your expenses
               </p>
               <h4 className=' py-4 text-teal-600'>Tech involved</h4>
               <p className=' py-1'>React</p>
               <p className=' py-1'>React hooks</p>
-              <div className=' mt-10'>
-              <a href='https://jagz5246.github.io/Income-tracker/' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 mr-5 rounded-md transition duration-500 hover:text-black sm:px-2 text-sm'>Live demo</a>
-              <a href='https://github.com/jagz5246/Income-tracker' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-500 hover:text-black sm:px-2 text-sm'>Source code</a>
+              <div className='mt-10'>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-500 hover:text-black '><a href='https://jagz5246.github.io/Income-tracker/'>Live demo</a></button>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-500 hover:text-black'><a href='https://github.com/jagz5246/Income-tracker'>Source code</a></button>
               </div>
             </div>
           </div>           
