@@ -109,16 +109,16 @@ function App() {
             <div className='lg:flex gap-10'>
             <div className=' text-center shadow-md p-10 rounded-xl cursor-pointer  my-10  transition duration-500 hover:bg-gray-300 mb- dark:bg-gray-100 dark:hover:bg-gray-300'>
               <img src={project1} alt="design.png" width={600} height={700} className='rounded-lg mx-auto mb-2'/>
-              <h3 className='text-lg pb-2 font-medium'>Landing page</h3>
+              <h3 className='text-lg pb-2 font-medium'>Market Maven</h3>
               <p className='py-2 '>
-                A simple landing page for a healthcare provider
+                A landing page of a digital marketing company
               </p>
               <h4 className=' py-4 text-teal-600'>Tech involved</h4>
               <p className='py-1'>HTML5, CSS3</p>
-              <p className='py-1'>Bootstrap 5</p>
+              <p className='py-1'>Js</p>
               <div className=' mt-10'>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-500 hover:text-black '><a href='https://jagz5246.github.io/Medpal.github.io/'>Live demo</a></button>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-500 hover:text-black'><a href='https://github.com/jagz5246/Medpal.github.io'>Source code</a></button>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-500 hover:text-black '><a href='https://jagz5246.github.io/Marketmaven/'>Live demo</a></button>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-500 hover:text-black'><a href='https://github.com/jagz5246/Marketmaven'>Source code</a></button>
               </div>
             </div>
             <div className=' text-center shadow-md p-10  rounded-xl cursor-pointer my-10 transition duration-500 hover:bg-gray-300 dark:bg-gray-100 dark:hover:bg-gray-300'>
