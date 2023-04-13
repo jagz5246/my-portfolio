@@ -92,7 +92,7 @@ function App() {
             <div className=' text-center p-5 mb-5 rounded-xl my-10 '>
               <img src={consulting} alt="design.png" width={100} height={100} className='mx-auto'/>
               <h3 className='text-lg pb-2 pt-8 font-medium dark:text-gray-400'>UI designing</h3>
-              <h4 className=' py-4 text-teal-600'>Tools that I use</h4>
+              <h4 className=' py-4 text-teal-600'>Tools that I know</h4>
               <div className=' flex justify-center gap-2'>
               <img src={xd} alt='xd.png' />
               <img src={figma} alt='figma.png' />
@@ -109,11 +109,11 @@ function App() {
             <div className='lg:flex gap-10'>
             <div className=' text-center shadow-md p-10 rounded-xl cursor-pointer  my-10  transition duration-500 hover:bg-gray-300 mb- dark:bg-gray-100 dark:hover:bg-gray-300'>
               <img src={project1} alt="design.png" width={600} height={700} className='rounded-lg mx-auto mb-2'/>
-              <h3 className='text-lg pb-2 font-medium'>Market Maven</h3>
+              <h3 className='text-2xl pb-2 font-medium'>Market Maven</h3>
               <p className='py-2 '>
-                A landing page of a digital marketing company
+                A responsive landing page of a digital marketing company developed
               </p>
-              <h4 className=' py-4 text-teal-600'>Tech involved</h4>
+              <h4 className=' py-4 text-teal-500 font-bold text-xl'>Tech involved</h4>
               <p className='py-1'>HTML5, CSS3</p>
               <p className='py-1'>Js</p>
               <div className=' mt-10'>
@@ -123,10 +123,10 @@ function App() {
             </div>
             <div className=' text-center shadow-md p-10  rounded-xl cursor-pointer my-10 transition duration-500 hover:bg-gray-300 dark:bg-gray-100 dark:hover:bg-gray-300'>
               <img src={project2} alt="design.png" width={600} height={700} className='rounded-lg  mx-auto mb-2'/>
-              <h3 className='text-lg pb-2 font-medium'>To Do App</h3>
+              <h3 className='text-2xl pb-2 font-medium'>To Do App</h3>
               <p className='py-2 '>
                 A todo application that can perform basic CRUD operations</p>
-              <h4 className=' py-4 text-teal-600'>Tech involved</h4>
+              <h4 className=' py-4 text-teal-500 font-bold text-xl'>Tech involved</h4>
               <p className='  py-1'>React</p>
               <p className=' py-1'>React hooks</p>
               <div className=' mt-10'>
@@ -136,11 +136,11 @@ function App() {
             </div>
             <div className=' text-center shadow-md p-10 rounded-xl my-10 cursor-pointer transition duration-500 hover:bg-gray-300 dark:bg-gray-100 dark:hover:bg-gray-300'>
               <img src={project3} alt="quizzy.png" width={600} height={700} className='rounded-lg mx-auto mb-2'/>
-              <h3 className='text-lg pb-2 font-medium'>Quizzy</h3>
+              <h3 className='text-2xl pb-2 font-medium'>Quizzy</h3>
               <p className='py-2 '>
                 A quiz app on front end fundamentals developed using React 
               </p>
-              <h4 className=' py-4 text-teal-600'>Tech involved</h4>
+              <h4 className=' py-4 text-teal-500 font-bold text-xl'>Tech involved</h4>
               <p className=' py-1'>React hooks</p>
               <p className=' py-1'>React router</p>
               <div className='mt-10'>
