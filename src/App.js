@@ -10,7 +10,7 @@ import code from './Images/code.png';
 import consulting from './Images/design1.png';
 import project1 from './Images/landingpage.png';
 import project2 from './Images/Todo.png';
-import project3 from './Images/IncomeTracker.png';
+import project3 from './Images/Quizzy.png';
 import html from './Icons/html.png';
 import css from './Icons/css.png';
 import js from './Icons/js.png';
@@ -135,17 +135,17 @@ function App() {
               </div>
             </div>
             <div className=' text-center shadow-md p-10 rounded-xl my-10 cursor-pointer transition duration-500 hover:bg-gray-300 dark:bg-gray-100 dark:hover:bg-gray-300'>
-              <img src={project3} alt="design.png" width={600} height={700} className='rounded-lg mx-auto mb-2'/>
-              <h3 className='text-lg pb-2 font-medium'>Income tracker</h3>
+              <img src={project3} alt="quizzy.png" width={600} height={700} className='rounded-lg mx-auto mb-2'/>
+              <h3 className='text-lg pb-2 font-medium'>Quizzy</h3>
               <p className='py-2 '>
-                An expense tracker application to help you keep track of your expenses
+                A quiz app on front end fundamentals developed using React 
               </p>
               <h4 className=' py-4 text-teal-600'>Tech involved</h4>
-              <p className=' py-1'>React</p>
               <p className=' py-1'>React hooks</p>
+              <p className=' py-1'>React router</p>
               <div className='mt-10'>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-500 hover:text-black '><a href='https://jagz5246.github.io/Income-tracker/'>Live demo</a></button>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-500 hover:text-black'><a href='https://github.com/jagz5246/Income-tracker'>Source code</a></button>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-500 hover:text-black '><a href='https://quizzy-thequizapp.netlify.app/'>Live demo</a></button>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-500 hover:text-black'><a href='https://github.com/jagz5246/Quizzy'>Source code</a></button>
               </div>
             </div>
           </div>           
