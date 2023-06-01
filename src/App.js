@@ -35,7 +35,7 @@ function App() {
             <ul className=' flex items-center'>
               <li><BsFillMoonStarsFill className=' cursor-pointer text-xl mr-10 dark:text-white' onClick={()=>setDarkMode(!darkMode)}/></li>
               <li>
-                <a href='https://drive.google.com/file/d/1tEUfBs4_fHTgIWA-NoObt3aetOo1HJ6w/view?usp=sharing' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-500 hover:text-black'>Resume</a>
+                <a href='https://drive.google.com/file/d/1leiFbthJMp7qIBb7nRyLZbgD_KUAkOIW/view?usp=sharing' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-500 hover:text-black'>Resume</a>
               </li>
             </ul>
           </nav>
