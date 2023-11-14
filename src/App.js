@@ -68,7 +68,7 @@ function App() {
 
         <section className='py-10'>
           <div className=' container my-12'>
-            <h3 className=' text-4xl py-1 font-bold dark:text-gray-300'>About me</h3>
+            <h3 className=' text-3xl py-1 font-bold md:text-4xl lg:text-4xl dark:text-gray-300'>About me</h3>
             <p className=' text-md py-2 leading-8 dark:text-white'>
             As a dedicated developer with over 2 years of hands-on experience in technologies like HTML5, CSS3, JavaScript, React.js, and Tailwind CSS, I bring a passion for creating user-friendly, responsive web applications. My journey in web development began with a strong foundation in core web technologies, which I've continued to build upon with a focus on modern frameworks and libraries.
             </p>
@@ -76,7 +76,7 @@ function App() {
             My<span className=' text-teal-500'> interests</span> include Front end development, UI desiging, Data analytics and programming.
             </p>
           </div>
-          <h3 className=' text-4xl font-bold mt-20 dark:text-gray-300'>Skills</h3>
+          <h3 className=' text-3xl py-1 font-bold md:text-4xl lg:text-4xl mt-20 dark:text-gray-300'>Skills</h3>
           <div className='lg:flex bg-grey-300 rounded-lg justify-around my-10 gap-10'>
             <div className=' outline outline-teal-800 text-center  p-5 mb-5 rounded-lg my-10 '>
               <img src={design} alt="design.png" width={100} height={100} className='mx-auto'/>
@@ -113,14 +113,14 @@ function App() {
         </section>
         <section>
           <div className=' container my-12'>
-            <h3 className=' text-4xl py-1 font-bold dark:text-gray-300'>Projects</h3>
-            <p className=' text-xl py-2 leading-8 dark:text-white'>
+            <h3 className=' text-3xl py-1 font-bold md:text-4xl lg:text-4xl dark:text-gray-300'>Projects</h3>
+            <p className=' text-lg py-2 leading-8 dark:text-white'>
             Take a look at some of my <span className=' text-teal-500'>side projects</span>
             </p>
             <div className='lg:flex gap-10'>
             <div className=' text-center p-10 rounded-xl cursor-pointer  my-10 shadow-2xl transition duration-100 hover:bg-gray-300 dark:bg-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
               <img src={project1} alt="design.png" width={600} height={700} className='rounded-lg mx-auto mb-2'/>
-              <h3 className='text-2xl pb-2 font-medium'>Keystone Realty</h3>
+              <h3 className='text-2xl py-2 font-semibold'>Keystone Realty</h3>
               <p className='py-2 '>
                 A responsive landing page of a real estate agency
               </p>
@@ -131,30 +131,30 @@ function App() {
             </div>
             <div className=' text-center p-10  rounded-xl cursor-pointer my-10 shadow-2xl transition duration-100 hover:bg-gray-300 dark:bg-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
               <img src={project2} alt="design.png" width={600} height={700} className='rounded-lg  mx-auto mb-2'/>
-              <h3 className='text-2xl pb-2 font-medium'>To Do App</h3>
+              <h3 className='text-2xl py-2 font-semibold '>To Do App</h3>
               <p className='py-2 '>
                 A todo application that can perform basic CRUD operations</p>
               <div className=' mt-10'>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-100 hover:text-black '><a href='https://jagz5246.github.io/todo-app/'>Live demo</a></button>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-100 hover:text-black '><a href='https://todo-app-git-main-jagz5246.vercel.app/'>Live demo</a></button>
               <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-100 hover:text-black'><a href='https://github.com/jagz5246/todo-app'>Source code</a></button>
               </div>
             </div>
             <div className=' text-center p-10 rounded-xl my-10 shadow-2xl cursor-pointer transition duration-100 hover:bg-gray-300 hover:shadow-white dark:bg-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
               <img src={project3} alt="quizzy.png" width={600} height={700} className='rounded-lg mx-auto mb-2'/>
-              <h3 className='text-2xl pb-2 font-medium'>Blogger!</h3>
+              <h3 className='text-2xl py-2 font-semibold'>Blogger!</h3>
               <p className='py-2 '>
-                A blog app that uses api to display blogs, created using React 
+                A blog app that leverages api, created using React 
               </p>
             <div className='mt-10 '>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-100 hover:text-black '><a href='https://quizzy-thequizapp.netlify.app/'>Live demo</a></button>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-100 hover:text-black'><a href='https://github.com/jagz5246/Quizzy'>Source code</a></button>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-100 hover:text-black '><a href='https://blogger-lime.vercel.app/'>Live demo</a></button>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-100 hover:text-black'><a href='https://github.com/jagz5246/blogger.git'>Source code</a></button>
               </div>
             </div>
           </div>           
           </div>
         </section>
         <section className=' my-10'>
-        <h3 className=' text-4xl py-1 font-bold dark:text-gray-300'>Hit me up!</h3>
+        <h3 className=' text-3xl py-1 font-bold md:text-4xl lg:text-4xl dark:text-gray-300'>Hit me up!</h3>
          <div className=' p-10 md:flex lg:flex gap-10'>
           <img src={contact} alt="design.png" width={300} height={300} className='rounded-lg '/>
           <div className=' md:pt-20 lg:pt-30'>
