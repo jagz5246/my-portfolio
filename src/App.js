@@ -1,7 +1,7 @@
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillLinkedin, AiFillGithub, AiFillInstagram} from 'react-icons/ai';
 import './App.css';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Typewriter from 'typewriter-effect';
 import proPic from './Images/profile-pic.jpg';
 import contact from './Images/contact-me.gif'
@@ -25,11 +25,27 @@ import xd from './Icons/xd.png';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
+  const [completion, setCompletion] = useState();
+ 
+  useEffect(()=>{
+    const updateScrollPosition = () =>{
+      const currentProgress = window.scrollY;
+      const scrollHeight = document.body.scrollHeight - window.innerHeight
+      if(scrollHeight){
+        setCompletion(Number((currentProgress / scrollHeight).toFixed(2)) * 100)
+      }
+    }
+    window.addEventListener('scroll', updateScrollPosition);
+    return ()=>{
+      window.removeEventListener('scroll', updateScrollPosition)
+    }
+  },[])
   return (
     <div className={darkMode?"dark":"" }>
+      <span style={{transform: `translateX(${completion-100}%)`}} className='fixed bg-gradient-to-r from-cyan-500 to-teal-500 h-2 w-full top-0'></span>
         <main className=' bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900 font-mono'>
         <section className=' max-h-screen'>
-        <div className=' container mb-12'>
+        <div className=' container lg:mb-12'>
           <nav className=' py-10 mb-10 flex justify-between'>
             <h1 className=' font-burtons text-4xl dark:text-white'>JM</h1>
             <ul className=' flex items-center'>
@@ -39,7 +55,7 @@ function App() {
               </li>
             </ul>
           </nav>
-          <div className=' text-center py-10'>
+          <div className=' text-center'>
             <h2 className=' text-4xl py-4 font-mono text-teal-600 font-medium md:text-6xl'>Jagan Mohan</h2>
             <div className=' text-md flex justify-center md:text-2xl dark:text-white'>
               <p>I am a&nbsp;</p>
@@ -60,13 +76,13 @@ function App() {
             <a href='https://www.linkedin.com/in/jagan-g-mohan-6b82701a2/'><AiFillLinkedin  className=' cursor-pointer dark:text-gray-300'/></a>
             <a href='https://www.instagram.com/jagz_5246/'><AiFillInstagram className=' cursor-pointer dark:text-gray-300'/></a>
           </div>
-          <div className='w-48 h-48 rounded-full mx-auto overflow-hidden md:w-96 md:h-96'>
+          <div className='w-44 h-44 rounded-full mx-auto overflow-hidden md:w-96 md:h-96'>
             <img src={proPic} alt='avatar.png'/>
           </div>
           </div> 
         </section>
-
-        <section className='py-10'>
+        {/* About section begins */}
+        <section className='py-5 md:py-10 lg:py-10'>
           <div className=' container my-12'>
             <h3 className=' text-3xl py-1 font-bold md:text-4xl lg:text-4xl dark:text-gray-300'>About me</h3>
             <p className=' text-md py-2 leading-8 dark:text-white'>
@@ -111,6 +127,26 @@ function App() {
             </div>
           </div>
         </section>
+        {/* About section ends */}
+
+        {/* Experience section begins */}
+        <section className='md:py-10 lg:py-10'>
+          <h3 className=' text-3xl py-1 font-bold md:text-4xl lg:text-4xl dark:text-gray-300'>Experience</h3>
+          <div className='text-center outline outline-teal-800 rounded-xl px-5 py-5 mx-auto my-10 md:flex gap-11 md:justify-evenly'>
+            <div className=' mb-2'>
+              <p className='md:text-xl text-white'>Project Engineer</p>
+              <p className='md:text-lg font-semibold text-teal-500'>Wipro Limited</p>
+              <p className='md:text-md py-2 text-gray-300'>2021-present</p>
+            </div>
+            <div className=' mb-2'>
+              <p className='md:text-xl text-white'>Market Research Intern</p>
+              <p className='md:text-lg font-semibold text-teal-500'>Draup</p>
+              <p className='md:text-md py-2 text-gray-300'>2020-2021</p>
+            </div>
+          </div>
+        </section>
+        {/* Experience section ends */}
+
         <section>
           <div className=' container my-12'>
             <h3 className=' text-3xl py-1 font-bold md:text-4xl lg:text-4xl dark:text-gray-300'>Projects</h3>
@@ -125,8 +161,8 @@ function App() {
                 A responsive landing page of a real estate agency
               </p>
               <div className=' mt-10'>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-100 hover:text-black '><a href='https://jagz5246.github.io/Marketmaven/'>Live demo</a></button>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-100 hover:text-black'><a href='https://github.com/jagz5246/Marketmaven'>Source code</a></button>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-100 hover:text-black '><a href='https://jagz5246.github.io/real-estate-agency/'>Live demo</a></button>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-100 hover:text-black'><a href='https://github.com/jagz5246/real-estate-agency'>Source code</a></button>
               </div>
             </div>
             <div className=' text-center p-10  rounded-xl cursor-pointer my-10 shadow-2xl transition duration-100 hover:bg-gray-300 dark:bg-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
