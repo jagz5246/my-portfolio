@@ -134,14 +134,14 @@ function App() {
           <h3 className=' text-3xl py-1 font-bold md:text-4xl lg:text-4xl dark:text-gray-300'>Experience</h3>
           <div className='text-center outline outline-teal-800 rounded-xl px-5 py-5 mx-auto my-10 md:flex gap-11 md:justify-evenly'>
             <div className=' mb-2'>
-              <p className='md:text-xl text-white'>Project Engineer</p>
+              <p className='md:text-xl text-black dark:text-white'>Project Engineer</p>
               <p className='md:text-lg font-semibold text-teal-500'>Wipro Limited</p>
-              <p className='md:text-md py-2 text-gray-300'>2021-present</p>
+              <p className='md:text-md py-2 font-light text-gray-600 dark:text-gray-400'>2021-present</p>
             </div>
             <div className=' mb-2'>
-              <p className='md:text-xl text-white'>Market Research Intern</p>
+              <p className='md:text-xl text-black dark:text-white'>Market Research Intern</p>
               <p className='md:text-lg font-semibold text-teal-500'>Draup</p>
-              <p className='md:text-md py-2 text-gray-300'>2020-2021</p>
+              <p className='md:text-md py-2 font-light text-gray-600 dark:text-gray-400'>2020-2021</p>
             </div>
           </div>
         </section>
