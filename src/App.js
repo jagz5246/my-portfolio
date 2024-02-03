@@ -15,7 +15,7 @@ import html from './Icons/html.png';
 import css from './Icons/css.png';
 import js from './Icons/js.png';
 import react from './Icons/react.png';
-// import nextjs from './Icons/nextjs.png';
+import nextjs from './Icons/nextjs.png';
 import c from './Icons/c.png';
 import java from './Icons/java.png';
 import python from './Icons/python.png';
@@ -103,6 +103,7 @@ function App() {
               <img src={css} alt='css.png' />
               <img src={js} alt='js.png' />
               <img src={react} alt='react.png' />
+              <img src={react} alt='react.png' />
               {/* <img src={nextjs} alt='nextjs.png' />   */}
               </div>
               </div>
@@ -114,6 +115,7 @@ function App() {
               <img src={c} alt='c.png' />
               <img src={java} alt='java.png' />
               <img src={python} alt='python.png' />
+              <br />
               </div>
             </div>
             <div className=' outline outline-teal-800 text-center px-10 py-5 mb-5 rounded-xl my-10 '>
@@ -123,6 +125,7 @@ function App() {
               <div className=' flex justify-center gap-2'>
               <img src={xd} alt='xd.png' />
               <img src={figma} alt='figma.png' />
+              <br />
               </div>
             </div>
           </div>
