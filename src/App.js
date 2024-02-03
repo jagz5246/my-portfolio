@@ -177,7 +177,7 @@ function App() {
               <img src={project1} alt="design.png" width={600} height={700} className='rounded-lg mx-auto mb-2'/>
               <h3 className='text-2xl py-2 font-semibold'>Netflix clone</h3>
               <p className='py-2 '>
-                A Netflix clone built from scratch using React js, Firbase, Firestore and Stripe Api for payments! 🚀</p>
+                A Netflix clone built from scratch using React js, Redux toolkit, Firbase, Firestore and Stripe Api for payments! 🚀</p>
               <div className=' mt-10'>
               <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-100 hover:text-black '><a href='https://jagz5246.github.io/netflix-clone'>Live demo</a></button>
               <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-100 hover:text-black'><a href='https://github.com/jagz5246/netflix-clone'>Source code</a></button>
