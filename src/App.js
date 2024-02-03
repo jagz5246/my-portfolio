@@ -51,7 +51,7 @@ function App() {
             <ul className=' flex items-center'>
               <li><BsFillMoonStarsFill className=' cursor-pointer text-xl mr-10 dark:text-white' onClick={()=>setDarkMode(!darkMode)}/></li>
               <li>
-                <a href='https://drive.google.com/file/d/1SQQbEeEFOcLfp32SqbEVZJclYAZLt-UY/view?usp=sharing' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-500 hover:text-black'>Resume</a>
+                <a href='https://drive.google.com/file/d/10q-OC__JT1IlaDzxnkKs-drcNJy8t_5g/view?usp=sharing' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-500 hover:text-black'>Resume</a>
               </li>
             </ul>
           </nav>
@@ -86,7 +86,7 @@ function App() {
           <div className=' container my-12'>
             <h3 className=' text-3xl py-1 font-bold md:text-4xl lg:text-4xl dark:text-gray-300'>About me</h3>
             <p className=' text-md py-2 leading-8 dark:text-white'>
-            As a dedicated developer with over 2 years of hands-on experience in technologies like HTML5, CSS3, JavaScript, React.js, and Tailwind CSS, I bring a passion for creating user-friendly, responsive web applications. My journey in web development began with a strong foundation in core web technologies, which I've continued to build upon with a focus on modern frameworks and libraries.
+            As a dedicated developer with over 2 years of hands-on experience in technologies like HTML5, CSS3, JavaScript, Typescript, React js, Next js, Tailwind css and more. I bring a passion for creating user-friendly, responsive web applications. My journey in web development began with a strong foundation in core web technologies, which I've continued to build upon with a focus on modern frameworks and libraries.
             </p>
             <p className=' text-md py-2 leading-8 dark:text-gray-300'>
             My<span className=' text-teal-500'> interests</span> include Front end development, UI desiging, Data analytics and programming.
@@ -154,22 +154,10 @@ function App() {
             Take a look at some of my <span className=' text-teal-500'>side projects</span>
             </p>
             <div className='lg:flex gap-10'>
-            <div className=' text-center p-10 rounded-xl cursor-pointer  my-10 shadow-2xl transition duration-100 hover:bg-gray-300 dark:bg-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
-              <img src={project1} alt="design.png" width={600} height={700} className='rounded-lg mx-auto mb-2'/>
-              <h3 className='text-2xl py-2 font-semibold'>Keystone Realty</h3>
-              <p className='py-2 '>
-                A responsive landing page of a real estate agency
-              </p>
-              <div className=' mt-10'>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-100 hover:text-black '><a href='https://jagz5246.github.io/real-estate-agency/'>Live demo</a></button>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-100 hover:text-black'><a href='https://github.com/jagz5246/real-estate-agency'>Source code</a></button>
-              </div>
-            </div>
             <div className=' text-center p-10  rounded-xl cursor-pointer my-10 shadow-2xl transition duration-100 hover:bg-gray-300 dark:bg-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
               <img src={project2} alt="design.png" width={600} height={700} className='rounded-lg  mx-auto mb-2'/>
               <h3 className='text-2xl py-2 font-semibold '>To Do App</h3>
-              <p className='py-2 '>
-                A todo application that can perform basic CRUD operations</p>
+              <p className='py-2 '>A todo application that can perform basic CRUD operations 🚀</p>
               <div className=' mt-10'>
               <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-100 hover:text-black '><a href='https://todo-app-git-main-jagz5246.vercel.app/'>Live demo</a></button>
               <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-100 hover:text-black'><a href='https://github.com/jagz5246/todo-app'>Source code</a></button>
@@ -179,11 +167,20 @@ function App() {
               <img src={project3} alt="quizzy.png" width={600} height={700} className='rounded-lg mx-auto mb-2'/>
               <h3 className='text-2xl py-2 font-semibold'>Blogger!</h3>
               <p className='py-2 '>
-                A blog app that leverages api, created using React 
-              </p>
+                A blog app that leverages api, created using React 🚀</p>
             <div className='mt-10 '>
               <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-100 hover:text-black '><a href='https://blogger-lime.vercel.app/'>Live demo</a></button>
               <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-100 hover:text-black'><a href='https://github.com/jagz5246/blogger.git'>Source code</a></button>
+              </div>
+            </div>
+            <div className=' text-center p-10 rounded-xl cursor-pointer  my-10 shadow-2xl transition duration-100 hover:bg-gray-300 dark:bg-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
+              <img src={project1} alt="design.png" width={600} height={700} className='rounded-lg mx-auto mb-2'/>
+              <h3 className='text-2xl py-2 font-semibold'>Netflix clone</h3>
+              <p className='py-2 '>
+                A Netflix clone built from scratch using React js, Firbase, Firestore and Stripe Api for payments! 🚀</p>
+              <div className=' mt-10'>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-100 hover:text-black '><a href='https://jagz5246.github.io/netflix-clone'>Live demo</a></button>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-100 hover:text-black'><a href='https://github.com/jagz5246/netflix-clone'>Source code</a></button>
               </div>
             </div>
           </div>           
