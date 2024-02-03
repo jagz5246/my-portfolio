@@ -114,6 +114,7 @@ function App() {
               <div className=' flex justify-center gap-2'>
               // <img src={c} alt='c.png' />
               <img src={java} alt='java.png' />
+              <img src={js} alt='js.png' />
               <img src={python} alt='python.png' />
               <br />
               </div>
