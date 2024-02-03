@@ -158,6 +158,16 @@ function App() {
             Take a look at some of my <span className=' text-teal-500'>side projects</span>
             </p>
             <div className='lg:flex gap-10'>
+            <div className=' text-center p-10 rounded-xl cursor-pointer  my-10 shadow-2xl transition duration-100 hover:bg-gray-300 dark:bg-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
+              <img src={project1} alt="design.png" width={600} height={700} className='rounded-lg mx-auto mb-2'/>
+              <h3 className='text-2xl py-2 font-semibold'>Netflix clone</h3>
+              <p className='py-2 '>
+                A Netflix clone built from scratch using React js, Redux toolkit, Firbase, Firestore and Stripe Api for payments! 🚀</p>
+              <div className=' mt-10'>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-100 hover:text-black '><a href='https://jagz5246.github.io/netflix-clone'>Live demo</a></button>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-100 hover:text-black'><a href='https://github.com/jagz5246/netflix-clone'>Source code</a></button>
+              </div>
+            </div>
             <div className=' text-center p-10  rounded-xl cursor-pointer my-10 shadow-2xl transition duration-100 hover:bg-gray-300 dark:bg-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
               <img src={project2} alt="design.png" width={600} height={700} className='rounded-lg  mx-auto mb-2'/>
               <h3 className='text-2xl py-2 font-semibold '>To Do App</h3>
@@ -175,16 +185,6 @@ function App() {
             <div className='mt-10 '>
               <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-100 hover:text-black '><a href='https://blogger-lime.vercel.app/'>Live demo</a></button>
               <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-100 hover:text-black'><a href='https://github.com/jagz5246/blogger.git'>Source code</a></button>
-              </div>
-            </div>
-            <div className=' text-center p-10 rounded-xl cursor-pointer  my-10 shadow-2xl transition duration-100 hover:bg-gray-300 dark:bg-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
-              <img src={project1} alt="design.png" width={600} height={700} className='rounded-lg mx-auto mb-2'/>
-              <h3 className='text-2xl py-2 font-semibold'>Netflix clone</h3>
-              <p className='py-2 '>
-                A Netflix clone built from scratch using React js, Redux toolkit, Firbase, Firestore and Stripe Api for payments! 🚀</p>
-              <div className=' mt-10'>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md transition duration-100 hover:text-black '><a href='https://jagz5246.github.io/netflix-clone'>Live demo</a></button>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-100 hover:text-black'><a href='https://github.com/jagz5246/netflix-clone'>Source code</a></button>
               </div>
             </div>
           </div>           
