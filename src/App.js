@@ -16,7 +16,7 @@ import css from './Icons/css.png';
 import js from './Icons/js.png';
 import react from './Icons/react.png';
 import nextjs from './Icons/nextjs.png';
-import c from './Icons/c.png';
+// import c from './Icons/c.png';
 import java from './Icons/java.png';
 import python from './Icons/python.png';
 import figma from './Icons/figma.png';
@@ -112,7 +112,7 @@ function App() {
               <h3 className='text-lg pb-2 pt-8 font-medium dark:text-gray-400'>Programming</h3>
               <h4 className=' py-4 text-teal-600'>Languages I know</h4>
               <div className=' flex justify-center gap-2'>
-              <img src={c} alt='c.png' />
+              // <img src={c} alt='c.png' />
               <img src={java} alt='java.png' />
               <img src={python} alt='python.png' />
               <br />
